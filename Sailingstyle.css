@@ -19,7 +19,7 @@
 
         .nav-header {
             background: #f0f5f5;
-            height: 250px;
+            height: auto;
             display: flex;
 
         }
@@ -56,8 +56,9 @@
 
         .main-header {
             background: url("imgs/sailboat1.jpg");
+            background-position: 25% 90%;
             background-size: cover;
-            height: 300px;
+            height: 350px;
             margin: center;
            
         }
