@@ -125,3 +125,59 @@
             background: #f0f5f5;
             padding: 5px;
         }
+        @media only screen and (max-width: 786px) {
+            body {
+                background-color: lightblue;
+            }
+            a {
+                display: block;
+                color: red;
+                border-style: solid;
+                border-color: lightgray;
+                background-color: lightgray;
+                margin: 5px;
+                
+            }
+            
+            .content {
+                display: flex;
+                flex-direction: column-reverse;
+
+            }
+            .nav-bar {
+                display: flex;
+                flex-direction: column-reverse;
+                margin: auto;
+            }
+            .main-header-title {
+                display: flex;
+                flex-direction: column;
+                margin: center;
+                
+            }
+            
+            .nav-header {
+                display: flex;
+                flex-direction: column;
+                margin: center;
+            }
+            .logo-img {
+                display: flex;
+                margin: auto;
+                flex-direction: column;
+            }
+        
+            .box {
+                display: flex;
+                flex-direction: column;
+            }
+            .nav-bar-link {
+                color: red;
+            }
+        }
+
+        @media only screen and (max-width: 600px) {
+            body {
+                background-color: lightblue;
+            }
+        }
