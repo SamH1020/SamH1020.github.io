@@ -28,7 +28,7 @@
     </div>
 
     <div class="main-header">
-        <h1 class="main-header-title">Sailing</h1>
+        <h1 class="main-header-title">Contact US</h1>
         <div class="main-header-intro">
             This webpage is dedicated to sailing, the history of sailing the different types of sailing ships throughout history and around the world.
         </div>
@@ -43,14 +43,52 @@
 
     <div class="box">
         <div class="card">
-            <img src="imgs/sailboat4.jpg" alt="sailboat4">
-            <h3>Facebook Link</h3>
-            <p>
-                Link to facebook page:
-            </p>
-            <ul>
-                <li><a href="https://www.facebook.com/">Facebook</a></li>
-            </ul>
+            <div class="container">
+              <form action="/action_page.php">
+              <div class="row">
+                <div class="col-25">
+                  <label for="fname">First Name</label>
+                </div>
+                <div class="col-75">
+                  <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-25">
+                  <label for="lname">Last Name</label>
+                </div>
+                <div class="col-75">
+                  <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-25">
+                  <label for="country">Country</label>
+                </div>
+                <div class="col-75">
+                  <select id="country" name="country">
+                    <option value="australia">Australia</option>
+                    <option value="canada">Canada</option>
+                    <option value="usa">USA</option>
+                    <option value="uk">UK</option>
+                    <option value="here">HERE</option>
+                    <option value="wwi">Where Waldo Is</option>
+                  </select>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-25">
+                  <label for="subject">Subject</label>
+                </div>
+                <div class="col-75">
+                  <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                </div>
+              </div>
+              <div class="row">
+                <input type="submit" value="Submit">
+              </div>
+              </form>
+            </div>
         </div>
         <!-- End of class .card -->
 
@@ -69,7 +107,7 @@
 
         <div class="card">
             <img src="imgs/sailboat1.jpg" alt="Sailboat">
-            <h3>Email Link</h3>
+            <h3>Mail Link</h3>
             <p>
                 Link to mail.
             </p>
