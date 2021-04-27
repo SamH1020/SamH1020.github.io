@@ -7,6 +7,8 @@
             margin: 0;
             font-family: sans-serif;
             text-align: center;
+            background-color: #d7d3ed;
+            /*#ab9ff5;*/
         }
 
         img {
@@ -20,6 +22,8 @@
         h3 {
             color: blue;
             height: auto;
+            /*text-align: center;*/
+            /*margin-right: 0;*/
         }
 
         .nav-header {
@@ -65,6 +69,10 @@
             /*padding-right: 20%;*/
         }
 
+        .nav-bar-link-selected {
+            color: red;
+        }
+
         .main-header {
             background: url("imgs/sailboat1.jpg");
             background-position: 25% 90%;
@@ -103,16 +111,20 @@
 
         .button {
             display: block;
-            border: black;
+            border: blue;
             padding: 15px 30px;
             text-align: center;
             display: inline-block;
-            font-size: 10px;
+            font-size: 15px;
             border-radius: 15px;
-            box-shadow: 5px 5px 5px gray;
-            background-color: lightgreen;
+            box-shadow: 5px 5px 5px #a3f0d1;
+            background-color: lightblue;
 
         }
+
+        /*.types {
+            text-align: auto;
+        }*/
 
         .box {
             width: 80%;
@@ -136,6 +148,7 @@
 
         .t1 {
             list-style-position: inside;
+            /*margin-left: auto;*/
         }
 
 
@@ -197,6 +210,9 @@
                 display: flex;
                 flex-direction: column;
 
+            }
+            .button {
+                background-color: lightgreen; 
             }
             
         }
