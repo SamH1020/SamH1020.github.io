@@ -142,6 +142,7 @@
             border-radius: 5px;
             box-shadow: 4px 4px black;
             margin-bottom: 30px;
+            /*list-style-image: auto*/
 
         
         }
@@ -375,6 +376,7 @@ img {vertical-align: middle;}
   animation-name: fade;
   animation-duration: 1.5s;
 }
+
 
 @-webkit-keyframes fade {
   from {opacity: .4} 
